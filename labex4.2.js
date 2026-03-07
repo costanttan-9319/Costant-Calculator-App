@@ -82,7 +82,7 @@ function calculate() {
     // Update the display with the final result
     resultDisplay.innerText = result;
     
-    // 👇 ADD THIS: Turn result text BLACK after calculation
+    //  added to show result
     resultDisplay.classList.add('result-shown');
 }
 
@@ -95,7 +95,7 @@ resetButton.addEventListener('click', () => {
     // Reset the display and variables
     resultDisplay.innerText = "Results";
     
-    // 👇 ADD THIS: Turn result text back to GREY
+    // added this to turn result text back to GREY
     resultDisplay.classList.remove('result-shown');
     
     selectedOperator = null;
