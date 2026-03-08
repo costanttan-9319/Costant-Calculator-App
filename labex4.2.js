@@ -6,14 +6,6 @@
  * 4. Reset the screen - Requirement D
  */
 
-/**
- * Lab Exercise 4.2 - JavaScript Logic
- * 1. Get data (two numbers) - Requirement A
- * 2. Choose an operator - Requirement B
- * 3. Get the result - Requirement C
- * 4. Reset the screen - Requirement D
- */
-
 // Variable to store the selected operation
 let selectedOperator = null;
 
@@ -56,7 +48,7 @@ function calculate() {
 
     let result = 0;
 
-    // CUSTOM LOGIC (Requirement C) - No eval() used per security note
+    // CUSTOM LOGIC (Requirement C)
     switch (selectedOperator) {
         case '+':
             result = number1 + number2;
